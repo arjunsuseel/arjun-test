@@ -22,9 +22,9 @@
 
 <distributionManagement>
   <repository>
-    <id>cloudbinary-cloudbinary</id>
-    <name>cloudbinary-cloudbinary</name>
-    <url>https://cloudbinary-266934144328.d.codeartifact.us-east-1.amazonaws.com/maven/cloudbinary/</url>
+    <id>awstest-deploytest</id>
+    <name>awstest-deploytest</name>
+    <url>https://awstest-589153786302.d.codeartifact.us-east-1.amazonaws.com/maven/deploytest/</url>
   </repository>
 </distributionManagement>
     
