@@ -10,7 +10,8 @@ phases:
   build:
     commands:
       - echo Build started on `date`
-      - mvn install
+      #- mvn install
+      - mvn verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=cloud-test-analysis
   post_build:
     commands:
       - echo Build completed on `date`
