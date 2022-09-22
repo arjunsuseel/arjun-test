@@ -16,7 +16,7 @@
         <sonar.organization>cloud-test</sonar.organization>
         <sonar.projectKey>cloud-test-analysis</sonar.projectKey>
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-        <sonar.login>16fce6efc9b314a690282d5a987837148b6ff1a8</sonar.login>
+        <sonar.login>58d7a1c62d33ffcbd1a704b3eec10db6e75fbdc7</sonar.login>
         
     </properties>
 
