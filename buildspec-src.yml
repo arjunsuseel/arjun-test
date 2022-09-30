@@ -12,9 +12,7 @@ phases:
       - echo Build started on `date`
       - mvn install
       #- mvn org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=cloudtestanalysis
-      - mvn verify
-      - export JAVA_HOME=/path/to/java11
-      - mvn sonar:sonar
+      - mvn verify sonar:sonar
   post_build:
     commands:
       - echo Build completed on `date`
