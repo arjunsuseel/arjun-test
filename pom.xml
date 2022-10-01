@@ -16,7 +16,7 @@
         <sonar.organization>javapro</sonar.organization>
         <sonar.projectKey>javaproject-jenkins</sonar.projectKey>
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-        <sonar.login>0eb2f3f17137514f1ce5251cc893a47a4f2fe079</sonar.login>
+        <sonar.login>75f89579674e8c7fbe04d4c56f2389eba9dd21a3</sonar.login>
     </properties>
 
 <distributionManagement>
