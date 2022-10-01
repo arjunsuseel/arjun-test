@@ -4,7 +4,12 @@ pipeline {
          maven 'maven'
          jdk 'java'
     }
-    stages {
+    stages {    
+        stage('Stage-1 : SCM Code Quality check with SonarCloud') { 
+            steps {
+                sh 'mvn verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=javaproject-jenkins'
+            }
+        }
         stage('Stage-1 : Clean') { 
             steps {
                 sh 'mvn clean'
